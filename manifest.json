@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Social AI Filter (FINAL)",
+    "version": "7.0",
+    "description": "Filter für LinkedIn, X, Facebook und Threads (.com & .net)",
+    "permissions": [],
+    "host_permissions": [
+        "*://*.linkedin.com/*",
+        "*://*.twitter.com/*",
+        "*://*.x.com/*",
+        "*://*.threads.net/*",
+        "*://*.threads.com/*",
+        "*://*.facebook.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.linkedin.com/*",
+                "*://*.twitter.com/*",
+                "*://*.x.com/*",
+                "*://*.threads.net/*",
+                "*://*.threads.com/*",
+                "*://*.facebook.com/*"
+            ],
+            "js": ["content.js"],
+            "css": ["styles.css"],
+            "run_at": "document_end"
+        }
+    ]
+}

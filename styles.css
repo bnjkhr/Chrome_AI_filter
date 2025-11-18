@@ -1,0 +1,19 @@
+/* Der Post selbst bekommt einen Rahmen oder wird ausgegraut */
+.ai-flagged-content {
+    border: 2px solid #ff4444 !important;
+    opacity: 0.6;
+    position: relative;
+}
+
+/* Das Warn-Label oben drauf */
+.ai-warning-label {
+    background-color: #ff4444;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 999;
+}
