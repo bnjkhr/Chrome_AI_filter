@@ -1,8 +1,14 @@
 {
     "manifest_version": 3,
-    "name": "Social AI Filter (FINAL)",
-    "version": "7.0",
-    "description": "Filter für LinkedIn, X, Facebook und Threads (.com & .net)",
+    "name": "Social AI Filter",
+    "version": "11.0",
+    "description": "Dein Feed, endlich sauber.",
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "permissions": [],
     "host_permissions": [
         "*://*.linkedin.com/*",
